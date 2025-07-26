@@ -1,0 +1,50 @@
+table {
+    color: black;
+    text-align: center;
+    font: normal 2em arial, Helvetica, sans-serif;
+    background-color: white;
+    
+}
+tr {
+    height: 13.52vh;
+}
+td {
+    width: 25vw;
+    border-radius: 1000px;
+    border:  rgba(0, 0, 0, 0.8);
+    
+}
+#inputBox  {
+    width: 100%;
+    text-align: right;
+    background-color: rgb(252, 252, 252);
+    color: black;
+    font-size: 2em;
+    border: 1px solid rgba(0, 0, 0, 0.849);
+    align-items: center;
+    display: flex;
+}
+.digitsbtn {
+    background-color: rgb(174, 255, 0);
+}
+.operatorbtn {
+    background-color:rgb(171, 131, 36);
+}
+.acBtn {
+    background-color: rgb(96, 94, 209);
+}
+.operatorbtn:hover {
+    background-color: aquamarine;
+}
+.digitsbtn:hover {
+    background-color: aquamarine;
+}
+.additionalBtn {
+    background-color: rgb(94, 116, 116);
+}
+.additionalBtn:hover {
+    background-color: rgb(26, 201, 207);
+}
+.acBtn:hover {
+    background-color: rgb(0, 179, 255);
+}

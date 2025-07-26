@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan="4">
+                <input type="text" name="inputBox" id="inputBox" value="0"/>
+            </td>
+        </tr >
+     
+        <tr>
+            <td class="acBtn" onclick="btnAcPressed()">AC</td>
+            <td class="operatorbtn" onclick="posNegBtn()">+/-</td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('%')">%</td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('/')">/</td>
+        </tr>
+           <tr>
+            <td class="additionalBtn" onclick="bracketBtnPressed('(',')')">()</td>
+            <td class="additionalBtn" onclick="operatorBtnPressed('*y')">X<sup>y</sup></td>
+            <td class="additionalBtn" onclick="operatorBtnPressed('^2')">X<sup>2</sup></td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('^3')">X<sup>3</sup></td>
+        </tr>
+        <tr>
+            <td class="digitsbtn" onclick="digitBtnPressed(7)">7</td>
+            <td class="digitsbtn" onclick="digitBtnPressed(8)">8</td>
+            <td class="digitsbtn" onclick="digitBtnPressed(9)">9</td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('x')">x</td>
+            
+        </tr>
+        <tr>
+            <td class="digitsbtn" onclick="digitBtnPressed(4)">4</td>
+            <td class="digitsbtn"onclick="digitBtnPressed(5)">5</td>
+            <td class="digitsbtn" onclick="digitBtnPressed(6)">6</td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('-')">-</td>
+        </tr>
+        <tr>
+            <td class="digitsbtn" onclick="digitBtnPressed(1)">1</td>
+            <td class="digitsbtn" onclick="digitBtnPressed(2)">2</td>
+            <td class="digitsbtn"onclick="digitBtnPressed(3)">3</td>
+            <td class="operatorbtn" onclick="operatorBtnPressed('+')">+</td>
+        </tr>
+        <tr>
+            <td class="digitsbtn" onclick="digitBtnPressed(0)">0</td>
+            <td class="additionalBtn" onclick="dotBtn()">,</td>
+            <td class="additionalBtn" onclick="operatorBtnPressed('√')">√</td>
+            
+            <td class="operatorbtn" onclick="equalsToBtn()">=</td>
+        </tr>
+
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
